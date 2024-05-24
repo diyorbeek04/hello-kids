@@ -1,0 +1,417 @@
+.container{
+   width: 100%;
+   max-width: 1240px;
+   margin: 0px auto;
+   padding: 0px 10px;
+}
+header{
+   width: 100%;
+   background-color: #343fdc;
+   padding: 20px 0px;
+   margin-top: -10px;
+}
+header .container .navbar{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+header .container .navbar .logo{
+   width: 12%;
+   text-decoration: none;
+}
+header .container .navbar .logo__1{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #7c7cf6;
+   padding: 0px 20px;
+   border-radius: 20px; 
+}
+header .container .navbar .logo img{
+   width: 50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+header .container .navbar .logo h2{
+   font-size: 30px;
+   font-family: Poetsen One;
+   color: #fff;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+header .container .navbar .menu{
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+header .container .navbar .menu ul{
+   width: 70%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   list-style: none;
+}
+header .container .navbar .menu ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+}
+
+header .container .navbar .menu button{
+   border-radius: 5px;
+   background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+   border: none;
+   outline: none;
+   cursor: pointer;
+   color: #FFF;
+   font-family: "Rubik 500";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 10px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header .container .navbar .menu .modalpod{
+   display: none;
+}
+header .container .navbar .menu .modalpod-active{
+   position: absolute;
+   top: 20%;
+   bottom: 0;
+   right: 0;
+   left: 30%;
+   width: 35%;
+   height: 450px;
+   background-color: #fff;
+   z-index: 10000;
+   border-radius: 20px;
+}
+header .container .navbar .menu .modalpod-active form{
+   width: 70%;
+   margin-top: 50px;
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   flex-direction: column;
+   gap: 10px;
+   padding-left: 50px;
+}
+header .container .navbar .menu .modalpod-active form label{
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+header .container .navbar .menu .modalpod-active form input{
+   width: 100%;
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   outline: none;
+   border: 1px solid #333;
+   padding: 5px;
+   border-radius: 5px;
+}
+header .container .navbar .menu .modalpod-active span{
+   position: absolute;
+   right: 20px;
+   top: 20px;
+   font-size: 25px;
+   padding: 0px 8px;
+   border-radius: 10px;
+   box-shadow: 0px 2px 6px 0px rgba(202, 202, 202, 1);
+   cursor: pointer;
+   color: #000;
+}
+header .container .navbar .menu .modalpod-active p{
+   color: #295093;
+   text-align: center;
+   font-family: "Rubik 500";
+   font-size: 26px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding-top: 80px;
+}
+header .container .navbar .menu .modalpod-active button{
+   border-radius: 5px;
+   background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+   border: none;
+   outline: none;
+   cursor: pointer;
+   color: #FFF;
+   font-family: "Rubik 500";
+   font-size: 16px;
+   font-style: normal;
+   font-weight: 500;
+   line-height: normal;
+   padding: 15px 20px;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 10px;
+   margin: 0px auto;
+   margin-top: 35px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#overlay{
+   background-color: rgba(0, 0, 0, 0.5);
+   position: fixed;
+   width: 100%;
+   height: 100vh;
+   top: 0;
+   bottom: 0;
+   right: 0;
+   left: 0;
+   z-index: 1000;
+   opacity: 0.5;
+}
+.overlay-none{
+   display: none;
+}
+
+
+#hero{
+   width: 100%;
+}
+#hero .container .hero{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px 0px;
+}
+#hero .container .hero .hero__text{
+   width: 50%;
+}
+#hero .container .hero .hero__text h2{
+   font-size: 32px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blue;
+}
+#hero .container .hero .hero__text p{
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: #333;
+}
+#hero .container .hero .hero__image{
+   width: 45%;
+}
+#hero .container .hero .hero__image img{
+   width: 100%;
+}
+
+
+#news{
+   width: 100%;
+   margin: 50px auto;
+}
+#news .container h1{
+   width: 100%;
+   font-size: 32px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blue;
+}
+#news .container .cards{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+#news .container .cards .card{
+   width: 28%;
+   border: 1px solid #333;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px 5px #ddd;
+   margin-top: 30px;
+}
+#news .container .cards .card i{
+   font-size: 30px;
+   text-align: center;
+   transform: rotate(65deg);
+   width: 100%;
+}
+#news .container .cards .card h3{
+   font-size: 24px;
+   text-align: center;
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#news .container .cards .card p{
+   font-size: 18px;
+   text-align: center;
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#team{
+   width: 100%;
+   margin-top: 100px;
+   margin-bottom: 100px;
+}
+#team .container h1{
+   width: 100%;
+   font-size: 32px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blue;
+}
+#team .container .cards{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-wrap: wrap;
+}
+#team .container .cards .card{
+   width: 28%;
+   border: 1px solid #333;
+   padding: 20px;
+   border-radius: 10px;
+   box-shadow: 5px 5px 5px 5px #ddd;
+   margin-top: 30px;
+}
+#team .container .cards .card .card__image{
+   width: 100%;
+}
+#team .container .cards .card .card__image img{
+   width: 100%;
+   margin: 0px auto;
+}
+#team .container .cards .card .card__text h2{
+   width: 100%;
+   font-size: 24px;
+   text-align: center;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#team .container .cards .card .card__text p{
+   font-size: 18px;
+   text-align: center;
+   width: 100%;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#contact{
+   width: 100%;
+}
+#contact .container h1{
+   width: 100%;
+   font-size: 32px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   color: blue;
+}
+#contact .container .contact{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 50px 0;
+}
+#contact .container .contact form{
+   width: 45%;
+   display: flex;
+   align-items: start;
+   justify-content: center;
+   flex-direction: column;
+   gap: 20px;
+}
+#contact .container .contact form label{
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+#contact .container .contact form input{
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 5px;
+   width: 100%;
+   outline: none;
+}
+#contact .container .contact form button{
+   font-size: 20px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   padding: 10px 25px;
+   width: 100%;
+   border: none;
+   outline: none;
+   background: linear-gradient(90deg, #1E96C8 15.07%, #37AEE2 85.96%);
+   cursor: pointer;
+   border-radius: 5px;
+}
+
+
+
+
+
+footer{
+   width: 100%;
+   background-color: #343fdc;
+   padding: 20px 0px;
+   margin-top: -10px;
+}
+
+footer .container .navbar{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+footer .container .navbar .logo{
+   width: 12%;
+   text-decoration: none;
+}
+footer .container .navbar .logo__1{
+   width: 100%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   background-color: #7c7cf6;
+   padding: 0px 20px;
+   border-radius: 20px; 
+}
+footer .container .navbar .logo img{
+   width: 50%;
+   margin-top: 10px;
+   margin-bottom: 10px;
+}
+footer .container .navbar .logo h2{
+   font-size: 30px;
+   font-family: Poetsen One;
+   color: #fff;
+   margin-top: 0;
+   margin-bottom: 0;
+}
+footer .container .navbar .menu{
+   width: 60%;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+}
+footer .container .navbar .menu ul{
+   width: 70%;
+
+   list-style: none;
+}
+footer .container .navbar .menu ul li a{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+}
+footer .container .navbar .menu ul li{
+   text-decoration: none;
+   color: #ffffff;
+   font-size: 24px;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   font-weight: 600;
+}
+
